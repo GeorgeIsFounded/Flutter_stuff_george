@@ -1,24 +1,18 @@
 import 'package:flutter/material.dart';
-import 'Tampilan.dart';
-import 'detail.dart';
+import 'text_field.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'figma nabil',
-      theme: ThemeData(
-        fontFamily: "Poppins",
-        primarySwatch: Colors.blue,
-      ),
-      home: Tampilan(),
+      title: 'latihan form',
+      home: Textfield(),
     );
   }
 }
